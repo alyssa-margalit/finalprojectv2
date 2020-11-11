@@ -48,12 +48,12 @@ def trivia_request_callback(client,userdata,message):
     #client.publish("alyssasrpi/trivia",trivia[1])
 def newAdventurer(client,userdata,message):
     print(str(message.payload, "utf-8"))
-    type = str(message.payload, "utf-8")
-    if type == "Wizard":
+    type1 = str(message.payload, "utf-8")
+    if type1 == "Wizard":
         json_object['Wizard']+=1
-    elif type =="Hero":
+    elif type1 =="Hero":
         json_object['Hero']+=1
-    elif type =="Villain":
+    elif type1 =="Villain":
         json_object["Villain"]+=1
     else:
         json_object["Peasant"]+=1
