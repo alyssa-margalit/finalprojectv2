@@ -226,7 +226,7 @@ if __name__ == '__main__':
 					#state = 0
 					story = 400
 				else:
-					setRBG(255,0,0) 
+					setRGB(255,0,0) 
 					scroll("Fail! I hereby curse you with corrupted files and eternal syntax errors!!!")
 					time.sleep(5)
 					scroll("  ")
