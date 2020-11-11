@@ -96,13 +96,13 @@ if __name__ == '__main__':
 	while True: 
 		GPIO.setmode(GPIO.BCM)
 		GPIO.setup(17,GPIO.OUT)
-		GPIO.output(17,1)#red
+		GPIO.output(17,0)#red
 		GPIO.setup(27,GPIO.OUT)
-		GPIO.output(27,1)#green
+		GPIO.output(27,0)#green
 		GPIO.setup(22,GPIO.OUT)
-		GPIO.output(22,1)#blue
+		GPIO.output(22,0)#blue
 		GPIO.setup(10, GPIO.OUT)
-		GPIO.output(10,1)#other
+		GPIO.output(10,0)#other
 		#print(story)
 		#begin the sequence
 		print("hello")
@@ -130,6 +130,9 @@ if __name__ == '__main__':
 				#story = 1
 
 		if story ==1:
+			GPIO.output(17,1)
+			GPIO.output(22,1)
+			GPIO.output(27,1)
 			print("red")
 			setRGB(255,0,0)
 			scroll("who dares disturb my eternal slumber")
@@ -169,7 +172,7 @@ if __name__ == '__main__':
 			print(response)
 			if response == "no":
 				setRGB(0,255,0)
-				scroll("then replace the sword and go away")
+				scroll("Leave or face MY WRATH!!")
 				#time.sleep(5)
 				story = 0
 			if response =="yes":
@@ -211,7 +214,7 @@ if __name__ == '__main__':
 					GPIO.output(10,0) 
 					setText("You are worthy! Stand by for a map")
 					time.sleep(2)
-					scroll("Psych!! The treasure was the inside you all along, now move along!!")
+					scroll("Psych!! The treasure was in your heart all along, now move move out or face MY WRATH!!")
 					
 					time.sleep(3)
 					#scroll("  ")
@@ -221,7 +224,8 @@ if __name__ == '__main__':
 					#time.sleep(3)
 					#state = 0
 					story = 400
-				else: 
+				else:
+					setRBG(255,0,0) 
 					scroll("Fail! I hereby curse you with corrupted files and eternal syntax errors!!!")
 					time.sleep(5)
 					scroll("  ")
