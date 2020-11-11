@@ -98,7 +98,7 @@ if __name__ == '__main__':
 		GPIO.setup(17,GPIO.OUT)
 		GPIO.output(17,1)
 		GPIO.setup(27,GPIO.OUT)
-		GPIO.output(27,0)
+		GPIO.output(27,1)
 		GPIO.setup(22,GPIO.OUT)
 		GPIO.output(22,1)
 		GPIO.setup(10, GPIO.OUT)
@@ -206,6 +206,7 @@ if __name__ == '__main__':
 					setRGB(0,255,0)
 					#GPIO.output(4, 0)       # set port/pin value to 0/GPIO.LOW/False  
 					setText("You are worthy!")
+					scroll("Psych!! The treasure was the inside you all along, now go away!!")
 					GPIO.output(17,0)
 					GPIO.output(27,1)
 					GPIO.output(22,0)
@@ -217,14 +218,14 @@ if __name__ == '__main__':
 					#state = 0
 					story = 400
 				else: 
-					scroll("Fail! Return the treasure at once!!")
-					time.sleep(5)
-					dist = ultrasonicRead(ranger)
-					print(dist)
-					if dist <10:
-						scroll("better luck next time!")
-						time.sleep(5)
-					else:
-						scroll("I hereby curse you with eternal syntax errors!!!")
-						time.sleep(5)
-						story = 400
+					scroll("Fail! I hereby curse you with eternal syntax errors!!!")
+					#time.sleep(5)
+					#dist = ultrasonicRead(ranger)
+					#print(dist)
+					#if dist <10:
+						#scroll("better luck next time!")
+						#time.sleep(5)
+					#else:
+						#scroll("I hereby curse you with eternal syntax errors!!!")
+						#time.sleep(5)
+						#story = 400
