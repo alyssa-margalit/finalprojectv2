@@ -212,11 +212,12 @@ if __name__ == '__main__':
 					GPIO.output(27,1)
 					GPIO.output(22,0)
 					GPIO.output(10,0) 
-					setText("You are worthy! Stand by for a map")
+					scroll("You are worthy! Stand by for a map")
 					time.sleep(2)
 					scroll("Psych!! The treasure was in your heart all along, now move move out or face MY WRATH!!")
 					
 					time.sleep(3)
+					GPIO.output(27,0)
 					#scroll("  ")
 
 					client.publish("alyssasrpi/showGraph","show")
