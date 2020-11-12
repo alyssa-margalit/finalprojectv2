@@ -31,5 +31,5 @@ How it works:
     2. you have come for the treasure and you answer the trivia question incorrectly in which case you are "cursed"
     3. you have not come for the treasure in which case you are "banished"
   
-  
+  https://i.pinimg.com/originals/ee/e7/5d/eee75d6e875e7e205a1394aaa96fad12.png
   
