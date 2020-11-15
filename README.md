@@ -3,7 +3,9 @@ EE 250 final project by Alyssa Margalit and Frida Hill
 
 DEMO: https://drive.google.com/drive/folders/1hl32uvdiJSrgYbnVNL2KqFM5obeEvoxr?usp=sharing
 
-
+libraries used:
+vm: requests, socket, json, random, paho.mqtt.client, time, sys, math, matplotlib.pyplot
+rpi: sys, grovepi, math, mqtt, RPi.GPIO, time
   
 How it works:
   Run vm.py on your vm and run pi3.py on your rpi
@@ -12,17 +14,19 @@ How it works:
   
   The dragon will ask you who you are
   
-    the options are wizard, hero, villain or peasant
+    the options are wizard, hero, villain or peasant in order
     
-  Respond by turning the potentiometer with sword to the desired value as written on the rocks
+  Respond by turning the potentiometer to the desired value
   
   click button to lock in potentiometer response
   
-  The dragon will then ask if you've come for the treasure
+  The lcd will then ask if you've come for the treasure
   
-  Turn the potentiometer and click the button to respond
+  Turn the potentiometer and click the button to respond (higher potentiometer value is yes, lower is no)
   
   The dragon will then ask you a trivia question depending on your previous response. 
+  
+  Respond by turning the potentiometer to a higher value for true and a lower value for no and then click the button to lock in the response.
   
   
   There are three different story paths:
