@@ -1,23 +1,8 @@
 # finalprojectv2
-EE 250 final project
+EE 250 final project by Alyssa Margalit and Frida Hill
 
-3D printed portions:
+DEMO: https://drive.google.com/drive/folders/1hl32uvdiJSrgYbnVNL2KqFM5obeEvoxr?usp=sharing
 
-  stl files designed by me:
-  
-    sensor cases: https://www.thingiverse.com/thing:4650334
-    gothic ruins facade: https://www.thingiverse.com/thing:4650352
-  
-  other stl files:
-  
-    tree: https://www.thingiverse.com/thing:3958719
-    
-    dragon: https://www.thingiverse.com/thing:87458
-    
-    sword: https://www.thingiverse.com/thing:2047413
-    
- 
-pinout: 
 
   
 How it works:
@@ -47,5 +32,22 @@ How it works:
     2. you have come for the treasure and you answer the trivia question incorrectly in which case you are "cursed"
     
     3. you have not come for the treasure in which case you are "banished"
+    
+    
+ 3D printed portions:
+
+  stl files designed by me:
+  
+    sensor cases: https://www.thingiverse.com/thing:4650334
+    gothic ruins facade: https://www.thingiverse.com/thing:4650352
+  
+  other stl files:
+  
+    tree: https://www.thingiverse.com/thing:3958719
+    
+    dragon: https://www.thingiverse.com/thing:87458
+    
+    sword: https://www.thingiverse.com/thing:2047413
+    
     
  
